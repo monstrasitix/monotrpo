@@ -1,0 +1,15 @@
+{
+    "folders": [{
+            "name": "Root",
+            "path": "./"
+        },
+        {
+            "name": "App - Base",
+            "path": "./apps/react-base"
+        },
+        {
+            "name": "App - Landing",
+            "path": "./apps/react-landing"
+        }
+    ]
+}

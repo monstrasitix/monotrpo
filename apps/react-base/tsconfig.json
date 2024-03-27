@@ -1,6 +1,10 @@
 {
     "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "jsx": "react-jsxdev"
+        "paths": {
+            "@/base/*": ["./src/*"],
+            "@/landing/*": ["../react-landing/src/*"],
+            "@/random/*": ["../../libs/random/src/*"],
+        }
     }
 }

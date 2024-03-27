@@ -10,7 +10,7 @@ export function root(path: string): string {
 
 export function common(): Configuration {
     return {
-        entry: root("./apps/react-base/src/main.ts"),
+        entry: root("./src/main.ts"),
         output: {
             path: root("./dist/js"),
             filename: "[name].bundle.js",
@@ -29,7 +29,7 @@ export function common(): Configuration {
         },
         plugins: [
             new HTMLWebpackPlugin({
-                template: root("./public/index.html"),
+                template: root("../../public/index.html"),
             }),
         ],
     };

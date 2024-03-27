@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "echo 'Monorepo'",
     "bundle.dev": "webpack serve --config=./webpack.dev.ts",
-    "bundle.prod": "webpack --config=./webpack.dev.ts",
+    "bundle.prod": "webpack --config=./webpack.prod.ts",
     "lint.base": "eslint ./apps/react-base/src"
   },
+  "private": true,
+  "workspaces": [
+    "apps/react-base",
+    "apps/react-landing"
+  ],
   "devDependencies": {
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.69",

@@ -8,13 +8,16 @@
         "target": "ES2022",
         "strict": true,
         "paths": {
-            "@/base/*": ["./apps/react-base/src/*"]
+            "@/base/*": ["./apps/react-base/src/*"],
+            "@/landing/*": ["./apps/react-landing/src/*"],
+            "@/random/*": ["./libs/random/src/*"]
         }
     },
     "include": [
         "./webpack.*.ts",
         "./apps/react-base/src/*",
-        "./apps/*"
+        "./apps/react-landing/src/*",
+        "./libs/random/src/*"
     ],
     "exclude": []
 }

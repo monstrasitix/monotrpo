@@ -1,0 +1,10 @@
+{
+  "name": "react-base",
+  "version": "1.0.0",
+  "scripts": {
+    "bundle.dev": "webpack serve --config=./webpack.dev.ts",
+    "bundle.prod": "webpack --config=./webpack.prod.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
